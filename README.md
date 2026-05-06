@@ -57,8 +57,6 @@ df_US = df[df['job_country'] == 'United States']
 
 To find the most demanded skills for the top 3 most popular data roles. I filtered out those positions by which ones were the most popular, and got the top 5 skills for these top 3 roles. This query highlights the most popular job titles and their top skills, showing which skills I should pay attention to depending on the role I'm targeting.
 
-View my notebook with detailed steps here: <img src="images/skill_demand_all_data_roles.png" width="500">
-
 ### Visualize Data
 
 ```python
@@ -73,7 +71,7 @@ plt.show()
 
 ### Results
 
-![Visualization of Top Skills for Data Nerds](3_Project\images\skill_demand_all_data_roles.png)
+![Visualization of Top Skills for Data Nerds](3_Project/images/skill_demand_all_data_roles.png)
 
 *Bar graph visualizing the salary for the top 3 data roles and their top 5 skills associated with each.*
 
@@ -101,7 +99,7 @@ plt.gca().yaxis.set_major_formatter(PercentFormatter(decimals=0))
 plt.show()
 ```
 ### Results
-![Trending Top Skills foe Data Analyst in the US](3_Project\images\Trending_Top_Skills_for_DA.png)
+![Trending Top Skills foe Data Analyst in the US](3_Project/images/Trending_Top_Skills_for_DA.png)
 
 *Bar graph visualizing the trending top skills for data analysts in the US in 2023.*
 
@@ -126,7 +124,7 @@ plt.gca().xaxis.set_major_formatter(ticks_x)
 plt.show()
 ```
 #### Results
-![Salary Distributions of Data Jobs in the US](3_Project\images\Salary_Analysis.png)
+![Salary Distributions of Data Jobs in the US](3_Project/images/Salary_Analysis.png)
 *Box plot visualizing the salary distributions for the top 6 data job titles.*
 
 #### Insights
@@ -155,7 +153,7 @@ plt.show()
 ### Resulst
 Here's the breakdown of the highest-paid & most in-demand skills for data analysts in the US:
 
-![](3_Project\images\Top10_Paid&MostDEmandedSkills.png)
+![](3_Project/images/Top10_Paid&MostDEmandedSkills.png)
 *Two separate bar graphs visualizing the highest paid skills and most in-demand skills for data analysts in the US.*
 
 #### Insights:
@@ -180,7 +178,7 @@ plt.show()
 ```
 
 ### Results
-![](3_Project\images\Most_Optimal_Skills1.png)
+![](3_Project/images/Most_Optimal_Skills1.png)
 *A scatter plot visualizing the most optimal skills (high paying & high demand) for data analysts in the US.*
 
 ### Insights:
@@ -211,7 +209,7 @@ plt.show()
 ```
 
 #### Results
-![](3_Project\images\Most_Optimal_Skills.png)
+![](3_Project/images/Most_Optimal_Skills.png)
 *A scatter plot visualizing the most optimal skills (high paying & high demand) for data analysts in the US with color labels for technology.*
 
 #### Insights:
